@@ -11,23 +11,21 @@ Welcome to my portfolio! 😎 This website is divided into ** 3 main views ** ea
 .
 ├── index.html # Home page (control navigation between views)
 
-├── / views
-
-│ ├── index.html # View 1 - Home page
-
-│ ├── contact.html # View 2 - Contact
-
-│ └── projects.html # View 3 - Projects
-
-└── / assets
-
-  │ ├── style.css # Styles for the start view
+  │ ├── index.html # View 1 - Home page
   
-  │ ├── about.css # Styles for the contact view
+  │ ├── contact.html # View 2 - Contact
   
-  │ └── projects.css # Styles for project view
-  │ 
-    └── images / # Images and other static resources
+  │ └── projects.html # View 3 - Projects
+  
+  └── / assets
+    │ 
+    │ ├── style.css # Styles for the start view
+    │ 
+    │ ├── about.css # Styles for the contact view
+    │ 
+    │ └── projects.css # Styles for project view
+    │ 
+      └── images / # Images and other static resources
 
 🎯 Technologies Used
 
