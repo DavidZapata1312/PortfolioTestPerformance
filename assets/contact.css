@@ -1,0 +1,113 @@
+:root {
+  --lugia-blue-grey: rgb(234,238,249);
+  --lugia-dark-blue: rgb(26, 35, 68);
+  --lugia-sky-blue: rgb(25,27,136);
+  --lugia-grey: rgb(200,207,215);
+  --lugia-shadow: rgba(0, 0, 0, 0.1);
+  --lucario-cream: rgb(243, 218, 133);
+}
+header img{
+    width: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: var(--lugia-grey);
+}
+header{
+    background-color: var(--lugia-dark-blue);
+    color: var(--lugia-blue-grey);
+    padding: 0.5rem 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    position: relative; 
+    z-index: 1100; 
+    width: 100%;
+}
+nav{
+    background-color: var(--lugia-dark-blue);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 6px var(--lugia-shadow);
+    z-index: 1000; 
+}
+nav ul {
+  display: flex;
+  justify-content: center; 
+  list-style: none;
+  gap: 10rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: var(--lugia-blue-grey);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: var(--lucario-cream);
+}
+main{  
+    display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1500px;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 750px;
+}
+
+footer {
+  background-color: var(--lugia-dark-blue);
+  color: var(--lugia-blue-grey);
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+form{
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+input{
+
+    border-radius: 15px;
+    height: 25px;
+    box-shadow: 0 2px 6px var(--lugia-shadow);
+}
+textarea{   
+
+    border-radius: 15px;
+
+ 
+}
+
+.forms{
+    color: var(--lugia-dark-blue);
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    
+
+    border-radius: 15px;
+    background-color: var(--lugia-blue-grey);
+    display: flex;
+    justify-content: center;
+}
