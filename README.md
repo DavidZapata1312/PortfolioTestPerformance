@@ -9,7 +9,8 @@ Welcome to my portfolio! 😎 This website is divided into ** 3 main views ** ea
 
 
 .
-├── index.html # Home page (control navigation between views)
+├── index.html # Home page (control navigation between views
+
 
   │ ├── index.html # View 1 - Home page
   
@@ -17,7 +18,8 @@ Welcome to my portfolio! 😎 This website is divided into ** 3 main views ** ea
   
   │ └── projects.html # View 3 - Projects
   
-  └── / assets
+  └──  assets
+  
     │ ├── style.css # Styles for the start view
     
     │ ├── about.css # Styles for the contact view
