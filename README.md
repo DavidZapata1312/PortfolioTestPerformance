@@ -18,14 +18,13 @@ Welcome to my portfolio! 😎 This website is divided into ** 3 main views ** ea
   │ └── projects.html # View 3 - Projects
   
   └── / assets
-    │ 
     │ ├── style.css # Styles for the start view
-    │ 
+    
     │ ├── about.css # Styles for the contact view
-    │ 
+    
     │ └── projects.css # Styles for project view
-    │ 
-      └── images / # Images and other static resources
+    
+        └── images / # Images and other static resources
 
 🎯 Technologies Used
 
