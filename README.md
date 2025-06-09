@@ -1,7 +1,7 @@
 # Portfolio Test Performance - 3 Views
 
 
-Welcome to my portfolio! 😎 This website is divided into ** 3 main views **, each with its own CSS file, and with ** centralized colors in a `root.css` ** file using CSS variables. Ideal for maintaining visual consistency and facilitating style changes.
+Welcome to my portfolio! 😎 This website is divided into ** 3 main views **
 
 ---
 
