@@ -1,4 +1,4 @@
-# Portfolio Test Performance - 3 Vistas
+# Portfolio Test Performance - 3 Views
 
 
 Welcome to my portfolio! 😎 This website is divided into ** 3 main views **, each with its own CSS file, and with ** centralized colors in a `root.css` ** file using CSS variables. Ideal for maintaining visual consistency and facilitating style changes.
@@ -7,13 +7,13 @@ Welcome to my portfolio! 😎 This website is divided into ** 3 main views **, e
 
 ## 📁 Project Structure
 
-`` bash
+
 .
 ├── index.html # Home page (control navigation between views)
 ├── / views
-│ ├── index.html # Vista 1 - Home page
-│ ├── contact.html # Vista 2 - Contact
-│ └── projects.html # Vista 3 - Projects
+│ ├── index.html # View 1 - Home page
+│ ├── contact.html # View 2 - Contact
+│ └── projects.html # View 3 - Projects
 └── / assets
   │ ├── style.css # Styles for the start view
   │ ├── about.css # Styles for the contact view
